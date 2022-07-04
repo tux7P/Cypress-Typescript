@@ -1,0 +1,24 @@
+{
+  "name": "cypress-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tux7P/Cypress-Typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tux7P/Cypress-Typescript/issues"
+  },
+  "homepage": "https://github.com/tux7P/Cypress-Typescript#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0",
+    "typescript": "^4.7.4"
+  }
+}
