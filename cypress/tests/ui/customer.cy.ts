@@ -30,7 +30,8 @@ let CUSTOMER_INTERCEPT_URL: string = 'https://customers.katanamrp.com/api/custom
 describe('Customer - Functional Tests', () => {
     
   it('Incercept and validate backend call from frontend', () => {
-    cy.intercept('POST', CUSTOMER_INTERCEPT_URL).as("InterceptCustomerData")        
+    cy.intercept('POST', CUSTOMER_INTERCEPT_URL).as("InterceptCustomerData")   
+    cy.login()     
     customerPage.goToAddNewCustomer()
     customerPage.fillCustomerData(customer.firstname, customer.lastname, customer.company, customer.email, customer.phone, customer.comment)
     customerPage.fillBillingDetails(billing.billingfirstname, billing.billinglastname, billing.billingcompany, billing.billingphone, billing.billingapartment, billing.billingcity, billing.billingregion, billing.billingzip, billing.billingcountry)
