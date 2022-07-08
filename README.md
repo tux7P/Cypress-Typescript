@@ -67,7 +67,7 @@ yarn cypress:api
 3. API tests - [Link](https://github.com/tux7P/Cypress-Typescript/tree/main/cypress/tests/api)
 4. Cypress commands - [Link](https://github.com/tux7P/Cypress-Typescript/blob/main/cypress/support/commands.ts)
 5. Intercepts & Alias - [Link](https://github.com/tux7P/Cypress-Typescript/blob/main/cypress/tests/ui/customer.cy.ts)
-6. Github Actions workflow - [Link]
+6. Github Actions workflow - [Link](https://github.com/tux7P/Cypress-Typescript/blob/main/.github/workflows/main.yml)
 7. ```package.json``` - [Link](https://github.com/tux7P/Cypress-Typescript/blob/main/package.json)
 8. ```cypress.config.js``` - [Link](https://github.com/tux7P/Cypress-Typescript/blob/main/cypress.config.js)
 8. Cypress Dashboard Report - [Link](https://dashboard.cypress.io/projects/msje8x)
