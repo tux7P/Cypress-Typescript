@@ -7,7 +7,8 @@
     "cypress:headless": "cypress run",
     "cypress:open": "cypress open",
     "cypress:api": "cypress run --spec=cypress/tests/api/*.cy.ts",
-    "cypress:ui": "cypress run --spec=cypress/tests/ui/*.cy.ts"
+    "cypress:ui": "cypress run --spec=cypress/tests/ui/*.cy.ts",
+    "cypress:dashboard": "npx cypress run --record --key bd5976c7-03fa-4fea-9015-d7858686a3a9"
   },
   "repository": {
     "type": "git",

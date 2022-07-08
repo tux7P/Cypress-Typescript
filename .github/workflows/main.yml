@@ -11,4 +11,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          command: yarn cypress:headless
+          command: yarn cypress:dashboard
