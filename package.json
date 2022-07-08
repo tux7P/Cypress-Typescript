@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:ui": "cypress run"
+    "cypress:headless": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:api": "cypress run --spec=cypress/tests/api/*.cy.ts",
+    "cypress:ui": "cypress run --spec=cypress/tests/ui/*.cy.ts"
   },
   "repository": {
     "type": "git",
