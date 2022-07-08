@@ -49,6 +49,37 @@ class CustomerPage {
         this.customerDataSubmitButton = '[data-testid="submitButton"]'
         this.closeIframeButton = '.MuiGrid-root > .MuiButtonBase-root.print-hide'
     }
+
+    goToAddNewCustomer(): void {
+        cy.get(this.globalAddButton)
+          .click()
+        cy.get(this.addCustomerButton)
+          .click()
+    }
+
+    fillCustomerData(firstname:string, lastname:string, company:string, email:string, phone:string, comment:string) {
+        cy.get(this.firstNameField).type(firstname)
+        cy.get(this.lastNameField).type(lastname)
+        cy.get(this.companyNameField).type(company)
+        cy.get(this.emailField).type(email)
+        cy.get(this.phoneField).type(phone)
+        cy.get(this.commentField).type(comment)
+        cy.get(this.billingAddressField).click()
+    }
+
+    fillBillingDetails(firstname:string, lastname:string, company:string, phone:string, apartment:string, city:string, region:string, zip:string, country:string) {
+        cy.get(this.billingFirstNameField).type(firstname)
+        cy.get(this.billingLastnameField).type(lastname)
+        cy.get(this.billingCompanyField).type(company)
+        cy.get(this.billingphoneField).type(phone)
+        cy.get(this.billingapartmentField).type(apartment)
+        cy.get(this.billingcityField).type(city)
+        cy.get(this.billingregionField).type(region)
+        cy.get(this.billingzipField).type(zip)
+        cy.get(this.billingcountryField).type(country)
+        cy.get(this.customerDataSubmitButton).click()
+        cy.get(this.closeIframeButton).click()
+    }
 }
 
 export const customerPage = new CustomerPage()
