@@ -1,4 +1,4 @@
-### Solution Contains
+### This project contains
 
 ✅ POM, class structure, constructor for selectors, re-use of repetitive methods
 
@@ -25,17 +25,15 @@
 
 ✅ Run tests in headless mode: ```yarn cypress:headless```
 
-Aditionally:
+✅ Cypress commands
 
-- Implemented cypress commands
+✅ Aliases to wait for intercepts
 
-- Implemented aliases to wait for intercepts
+✅ Integrated cypress dashboard for reporting
 
-- Integrated cypress dashboard for reporting
+✅ Gropped API & UI test spec to run separately through node scripts
 
-- Gropped API & UI test spec to run separately through node scripts
-
-- Followed conventional commit style
+✅ Conventional commit style
 
 ### To Run Tests
 
